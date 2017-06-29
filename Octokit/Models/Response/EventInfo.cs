@@ -239,6 +239,11 @@ namespace Octokit
         /// <summary>
         /// A commit comment was made.
         /// </summary>
-        CommitCommented
+        CommitCommented,
+
+        /// <summary>
+        /// Comment was deleted (undocumented).
+        /// </summary>
+        CommentDeleted
     }
 }
